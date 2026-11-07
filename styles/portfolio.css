@@ -21,8 +21,11 @@
 
 /* main style */
 header {
-    background-color: #FFF8F3;
-    padding-top: 40px;
+    /* background-color: #FFF8F3; */
+    background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
+    padding-top: 30px;
 }
 
 nav {
@@ -52,13 +55,108 @@ nav li {
     list-style: none;
 }
 
-nav .btn {
+.btn {
     background-color: #FD6E0A;
-    padding: 19px 36px;
+    padding: 15px 25px;
     border-radius: 5px;
     border: none;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+    margin-right: 25px;
 }
 
+/* banner part */
+#banner {
+    /* border: 1px solid saddlebrown; */
+    margin: 45px 38px 0 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+}
+#banner .banner-content {
+    /* border: 2px solid salmon; */
+    max-width: 600px;
+}
+
+.banner-content h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.banner-content h1 {
+    color: #181818;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.banner-content .b-title {
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-image img{
+    /* border: 1px solid salmon; */
+    max-width: 580px;
+    /* max-height: 570px; */
+    vertical-align: middle;
+}
+
+/* nex about part start */
+
+#about .about-container {
+    width: 83%;
+    max-width: 1140px;
+    margin: 130px auto;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-container .about-heading {
+    max-width: 1000px;
+    padding: 130px 155px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-heading .heading-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+
+.about-info {
+    /* border: 2px solid salmon; */
+    display: flex;
+    gap: 50px;
+    
+}
+
+.about-info .info-card p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-info .info-card h4 {
+    color: #474747;
+    font-size: 15px;
+    font-weight: bold;
+}
