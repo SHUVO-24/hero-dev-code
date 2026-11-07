@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+
+.font-open-sans {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bolder;
+}
+.orange {
+    color: #FD6E0A;
+}
+
+
+/* main style */
+header {
+    background-color: #FFF8F3;
+    padding-top: 40px;
+}
+
+nav {
+    width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+nav li {
+    list-style: none;
+}
+
+nav .btn {
+    background-color: #FD6E0A;
+    padding: 19px 36px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
