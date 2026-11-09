@@ -311,9 +311,8 @@ nav li {
     line-height: 22px;
 }
 
-#resume .resume-container .resume-btn {
-    margin: 40px 450px;
-    background-color: #FD6E0A;
+.btn-center {
+    text-align: center;
 }
 #resume .resume-container .b-none {
     border-bottom: 1px solid #D1D1D1;
